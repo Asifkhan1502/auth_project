@@ -4,10 +4,9 @@ import TextInput from "../components/TextInput"
 import { useFormik } from 'formik';
 import * as yup from 'yup';
 
-
 const ContactUs = () => {
     const [data, setData] = useState({});
-    const [showModal, setModal] = useState(false)
+    const [showModal, setModal] = useState(false);
 
     let schema = yup.object().shape({
         name: yup.string().required(),
