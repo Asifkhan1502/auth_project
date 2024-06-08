@@ -4,6 +4,7 @@ import AppRoutes from './routes';
 import Navbar from './screens/layouts/Navbar';
 import { useSelector } from "react-redux";
 
+
 function App() {
   const theme = useSelector(state => state.theme).theme;
 
